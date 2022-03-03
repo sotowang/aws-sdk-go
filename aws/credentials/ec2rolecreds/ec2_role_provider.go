@@ -7,13 +7,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/ec2metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/sdkuri"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/awserr"
+	"github.com/sotowang/aws-sdk-go/aws/client"
+	"github.com/sotowang/aws-sdk-go/aws/credentials"
+	"github.com/sotowang/aws-sdk-go/aws/ec2metadata"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/internal/sdkuri"
 )
 
 // ProviderName provides a name of EC2Role provider

@@ -9,9 +9,9 @@
 package opsworkscmiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/opsworkscm"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/service/opsworkscm"
 )
 
 // OpsWorksCMAPI provides an interface to enable mocking the

@@ -6,11 +6,11 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/restjson"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/awsutil"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/private/protocol"
+	"github.com/sotowang/aws-sdk-go/private/protocol/restjson"
 )
 
 const opAssociateApprovedOrigin = "AssociateApprovedOrigin"

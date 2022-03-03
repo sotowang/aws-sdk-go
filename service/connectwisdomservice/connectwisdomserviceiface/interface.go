@@ -9,9 +9,9 @@
 package connectwisdomserviceiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/connectwisdomservice"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/service/connectwisdomservice"
 )
 
 // ConnectWisdomServiceAPI provides an interface to enable mocking the

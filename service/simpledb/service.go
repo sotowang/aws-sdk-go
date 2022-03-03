@@ -3,13 +3,13 @@
 package simpledb
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/corehandlers"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/private/protocol/query"
-	"github.com/aws/aws-sdk-go/private/signer/v2"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/client"
+	"github.com/sotowang/aws-sdk-go/aws/client/metadata"
+	"github.com/sotowang/aws-sdk-go/aws/corehandlers"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/private/protocol/query"
+	"github.com/sotowang/aws-sdk-go/private/signer/v2"
 )
 
 // SimpleDB provides the API operation methods for making requests to

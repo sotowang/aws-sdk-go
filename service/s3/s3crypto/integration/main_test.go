@@ -13,14 +13,14 @@ import (
 	"os"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/awstesting/integration"
-	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/aws/aws-sdk-go/service/kms/kmsiface"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3crypto"
-	"github.com/aws/aws-sdk-go/service/s3/s3iface"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/session"
+	"github.com/sotowang/aws-sdk-go/awstesting/integration"
+	"github.com/sotowang/aws-sdk-go/service/kms"
+	"github.com/sotowang/aws-sdk-go/service/kms/kmsiface"
+	"github.com/sotowang/aws-sdk-go/service/s3"
+	"github.com/sotowang/aws-sdk-go/service/s3/s3crypto"
+	"github.com/sotowang/aws-sdk-go/service/s3/s3iface"
 )
 
 var config = &struct {

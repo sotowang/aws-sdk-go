@@ -13,12 +13,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/kms"
-	"github.com/aws/aws-sdk-go/service/s3"
-	"github.com/aws/aws-sdk-go/service/s3/s3crypto"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/awstesting/unit"
+	"github.com/sotowang/aws-sdk-go/service/kms"
+	"github.com/sotowang/aws-sdk-go/service/s3"
+	"github.com/sotowang/aws-sdk-go/service/s3/s3crypto"
 )
 
 func TestDecryptionClientV2_CheckDeprecatedFeatures(t *testing.T) {

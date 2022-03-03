@@ -5,7 +5,7 @@ import (
 	"io"
 	"io/ioutil"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/sotowang/aws-sdk-go/aws/awserr"
 )
 
 const (

@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/internal/s3shared/arn"
-	"github.com/aws/aws-sdk-go/private/checksum"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/restxml"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/awsutil"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/internal/s3shared/arn"
+	"github.com/sotowang/aws-sdk-go/private/checksum"
+	"github.com/sotowang/aws-sdk-go/private/protocol"
+	"github.com/sotowang/aws-sdk-go/private/protocol/restxml"
 )
 
 const opCreateAccessPoint = "CreateAccessPoint"

@@ -11,8 +11,8 @@ import (
 	"io"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/service/s3"
 )
 
 func base64Sum(content []byte) string {

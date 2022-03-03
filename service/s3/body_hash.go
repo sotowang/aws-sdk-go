@@ -10,9 +10,9 @@ import (
 	"hash"
 	"io"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/awserr"
+	"github.com/sotowang/aws-sdk-go/aws/request"
 )
 
 const (

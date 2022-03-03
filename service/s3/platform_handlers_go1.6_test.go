@@ -7,9 +7,9 @@ import (
 	"bytes"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/s3"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/awstesting/unit"
+	"github.com/sotowang/aws-sdk-go/service/s3"
 )
 
 func TestAdd100Continue_Added(t *testing.T) {

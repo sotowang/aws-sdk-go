@@ -3,14 +3,14 @@
 package timestreamwrite
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/crr"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/private/protocol"
-	"github.com/aws/aws-sdk-go/private/protocol/jsonrpc"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/client"
+	"github.com/sotowang/aws-sdk-go/aws/client/metadata"
+	"github.com/sotowang/aws-sdk-go/aws/crr"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/aws/signer/v4"
+	"github.com/sotowang/aws-sdk-go/private/protocol"
+	"github.com/sotowang/aws-sdk-go/private/protocol/jsonrpc"
 )
 
 // TimestreamWrite provides the API operation methods for making requests to

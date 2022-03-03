@@ -9,9 +9,9 @@
 package chimesdkmeetingsiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/chimesdkmeetings"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/service/chimesdkmeetings"
 )
 
 // ChimeSDKMeetingsAPI provides an interface to enable mocking the

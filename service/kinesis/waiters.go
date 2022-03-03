@@ -5,8 +5,8 @@ package kinesis
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/request"
 )
 
 // WaitUntilStreamExists uses the Kinesis API operation

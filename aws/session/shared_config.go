@@ -5,10 +5,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
-	"github.com/aws/aws-sdk-go/aws/credentials"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/internal/ini"
+	"github.com/sotowang/aws-sdk-go/aws/awserr"
+	"github.com/sotowang/aws-sdk-go/aws/credentials"
+	"github.com/sotowang/aws-sdk-go/aws/endpoints"
+	"github.com/sotowang/aws-sdk-go/internal/ini"
 )
 
 const (

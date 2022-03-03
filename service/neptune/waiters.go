@@ -5,8 +5,8 @@ package neptune
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/request"
 )
 
 // WaitUntilDBInstanceAvailable uses the Amazon Neptune API operation

@@ -9,9 +9,9 @@
 package cloudwatchrumiface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/cloudwatchrum"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/service/cloudwatchrum"
 )
 
 // CloudWatchRUMAPI provides an interface to enable mocking the

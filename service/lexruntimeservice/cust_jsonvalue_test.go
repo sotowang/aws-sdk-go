@@ -11,10 +11,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/service/lexruntimeservice"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/awstesting/unit"
+	"github.com/sotowang/aws-sdk-go/service/lexruntimeservice"
 )
 
 func TestLexRunTimeService_suppressedJSONValue(t *testing.T) {

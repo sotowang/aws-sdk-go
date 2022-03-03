@@ -10,13 +10,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/client"
-	"github.com/aws/aws-sdk-go/aws/client/metadata"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/aws/signer/v4"
-	"github.com/aws/aws-sdk-go/awstesting/unit"
-	"github.com/aws/aws-sdk-go/private/protocol/rest"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/client"
+	"github.com/sotowang/aws-sdk-go/aws/client/metadata"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/aws/signer/v4"
+	"github.com/sotowang/aws-sdk-go/awstesting/unit"
+	"github.com/sotowang/aws-sdk-go/private/protocol/rest"
 )
 
 func TestUnsetHeaders(t *testing.T) {

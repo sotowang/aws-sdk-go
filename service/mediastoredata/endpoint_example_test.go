@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/session"
-	"github.com/aws/aws-sdk-go/service/mediastore"
-	"github.com/aws/aws-sdk-go/service/mediastoredata"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/session"
+	"github.com/sotowang/aws-sdk-go/service/mediastore"
+	"github.com/sotowang/aws-sdk-go/service/mediastoredata"
 )
 
 func ExampleMediaStoreData_describeEndpoint() {

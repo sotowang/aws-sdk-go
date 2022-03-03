@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/aws/aws-sdk-go/aws/awserr"
+	"github.com/sotowang/aws-sdk-go/aws/awserr"
 )
 
 type secondStubProvider struct {

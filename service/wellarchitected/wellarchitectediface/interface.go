@@ -9,9 +9,9 @@
 package wellarchitectediface
 
 import (
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/request"
-	"github.com/aws/aws-sdk-go/service/wellarchitected"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/service/wellarchitected"
 )
 
 // WellArchitectedAPI provides an interface to enable mocking the

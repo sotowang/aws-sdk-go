@@ -3,10 +3,10 @@ package neptune
 import (
 	"time"
 
-	"github.com/aws/aws-sdk-go/aws"
-	"github.com/aws/aws-sdk-go/aws/awsutil"
-	"github.com/aws/aws-sdk-go/aws/endpoints"
-	"github.com/aws/aws-sdk-go/aws/request"
+	"github.com/sotowang/aws-sdk-go/aws"
+	"github.com/sotowang/aws-sdk-go/aws/awsutil"
+	"github.com/sotowang/aws-sdk-go/aws/endpoints"
+	"github.com/sotowang/aws-sdk-go/aws/request"
 )
 
 func init() {
