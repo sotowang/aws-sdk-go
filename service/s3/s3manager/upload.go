@@ -23,7 +23,7 @@ const MaxUploadParts = 10000
 
 // MinUploadPartSize is the minimum allowed part size when uploading a part to
 // Amazon S3.
-const MinUploadPartSize int64 = 1024 * 1024 * 5
+const MinUploadPartSize int64 = 1024 * 1024 * 1
 
 // DefaultUploadPartSize is the default part size to buffer chunks of a
 // payload into.
